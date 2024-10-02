@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WhatsApp Web Translator</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+        
+        select,
+        button {
+            margin: 5px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WhatsApp Web Translator</h1>
+    <label for="targetLanguage">Translate To:</label>
+    <select id="targetLanguage"></select>
+    <label>
+    <input type="checkbox" id="autoTranslate">
+    Auto-translate new messages
+  </label>
+    <button id="saveSettings">Save Settings</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>
